@@ -1,7 +1,7 @@
 const ghPages = require('gh-pages');
 
 ghPages.publish(
-  'public',
+  'docs',
   {
     branch: 'gh-pages',
     repo: 'https://github.com/tchon/tchon.github.io.git',
